@@ -3,8 +3,27 @@
 html{
     background-color: gray;
     font-family: "Nunito Sans";
+    display: flex;
+    justify-content: center;
+    height: auto;
+    padding: 30px;
 }
 body{
     background-color: black;
     color: white;
+    border-radius: 5px;
+}
+
+header, main{
+    background-color: lightslategray;
+    padding: 10px;
+}   
+footer{
+    background: gray;
+    padding: 0 20px 0 20px;
+    font-size: 8px;
+    color: black;
+}
+a:hover{
+    font-size: 18px;
 }
